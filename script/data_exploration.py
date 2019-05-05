@@ -27,6 +27,8 @@ plt.savefig('distribution.png')
 
 house_price_dt.describe()
 
+## Check the missing values (Delete missing values variable)
+
 ## Create a correlation matrix
 
 # subset of the object and of the numerical data
@@ -47,5 +49,9 @@ plt.imshow(correlation_dataset, cmap='hot', interpolation='nearest')
 plt.savefig('heatmap.png')
 ## Visually check the direction of the relation
 ## Run an easy model as benchmark
-## do
+## Use light GBM to get some insight
+## Use partial dependency plot to how variables respond to each other
+## Write conclusion
+
+
 
